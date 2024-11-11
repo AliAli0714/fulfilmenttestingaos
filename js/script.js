@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
       duration: 1200, // Продолжительность анимации (в миллисекундах)
       easing: 'ease', // Тип анимации
       once: true, // Выполнить анимацию только один раз
+        disable: 'mobile'
     });
   });
 
