@@ -740,7 +740,38 @@ body {
   }
 
   @media (max-width: 480px) {
+    .contact {
+        display: none;
+    }
 
+    .home__offer, .home__offer span {
+        font-size: 12.2vw;
+    }
+
+    .container {
+        max-width: 360px;
+    }
+
+    .column {
+        max-width: 360px;
+    }
+
+    .prices__wrapper {
+        max-width: 360px;
+    }
+
+    .services__offer {
+        max-width: 360px;
+    }
+
+    .truck {
+        max-width: 360px;
+        margin-left: 0;
+    }
+
+    .contacts__wrapper {
+        max-width: 360px;
+    }
   }
 
   @keyframes burgerAnimation {
